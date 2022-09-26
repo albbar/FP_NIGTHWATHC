@@ -1,0 +1,18 @@
+{
+  "name": "fp_nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint":"e slint",
+    "debug":"node --inspect-brk node_modules/.bin/nightwatch.CMD",
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^105.0.0",
+    "nightwatch": "^2.3.6"
+  }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="unosquare"
+    errors="1" failures="0" hostname="" id="" package="unosquare" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│   ChromeDriver cannot be found in the current project.                                             │
+│                                                                                                    │
+│    You can either install chromedriver from NPM with:                                              │
+│                                                                                                    │
+│       npm install chromedriver --save-dev                                                          │
+│                                                                                                    │
+│    or download it from https://sites.google.com/chromium.org/driver/downloads,                     │
+│   extract the archive and set &#34;webdriver.server_path&#34; config option to point to the binary file.   │
+│                                                                                                    │
+│                                                                                                    │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+    </system-err>
+  
+
+    
+    <error message="ChromeDriver cannot be found in the current project."><![CDATA[
+      Error: ChromeDriver cannot be found in the current project.
+    at ChromeServiceBuilder.getStartupErrorMessage (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\transport\selenium-webdriver\service-builders\base-service.js:197:26)
+    at new BaseService (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\transport\selenium-webdriver\service-builders\base-service.js:81:18)
+    at new ChromeServiceBuilder (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\transport\selenium-webdriver\service-builders\chrome.js:4:1)
+    at ChromeDriver.createDriverService (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:171:28)
+    at ChromeDriver.createSession (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\transport\selenium-webdriver\index.js:223:18)
+    at NightwatchClient.createSession (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\core\client.js:672:27)
+    at TestSuite.createSession (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\testsuite\index.js:439:24)
+    at TestSuite.startTestSuite (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\testsuite\index.js:453:17)
+    at TestSuite.runTestSuite (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\testsuite\index.js:478:17)
+    at TestSuite.run (C:\Users\alberto.barboza\Documents\fp_nightwatch\node_modules\nightwatch\lib\testsuite\index.js:933:17)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Demo test unosquare" classname="unosquare">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
