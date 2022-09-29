@@ -16,13 +16,14 @@ module.exports = {
   // An array of folders (excluding subfolders) where your tests are located;
   // if this is not specified, the test source must be passed as the second argument to the test runner.
   src_folders: ["tests"],
-  page_objects_path:['page-objects'],
+  page_objects_path:['page-objects/Google', 'page-objects/Unosquare'],
+  skip_testcases_on_fail: false,
 
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
   //page_objects_path: ['node_modules/nightwatch/examples/pages/'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-commands.html
-  custom_commands_path: ['node_modules/nightwatch/examples/custom-commands/'],
+  custom_commands_path: ['./commands'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-assertions.html
   custom_assertions_path: '',
