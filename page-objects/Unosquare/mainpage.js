@@ -1,17 +1,20 @@
 module.exports = {
     url: 'https://www.unosquare.com',
     elements: {
-      contactusMenu: {
-        selector: "li .nav-link.link-blue"
-      },
-      industriesMenu: {
-        selector: "li>a[href='/Industries']"
-      },
-      aboutMenu: {
-        selector: "li>a[href='/About']"
-      },
-      servicesMenu: {
-        selector: "li>a[href='/Services']"
+      buttonMenu: "button>.nav-icon",
+      aboutMenu: "[href='https://www.unosquare.com/About']",
+      blogMenu: "[href='https://blog.unosquare.com']",
+      blogHeader: ".breadcrumb-container>h1",
+      searchBar: "#search-bar",
+      searchButton: ".search-icon",
+      resultTitle: ".results-title",
+      containerName: "div>.name",
+      test: ".subtitle.my-5"
+    },
+    commands :[{
+      getData(){
+          return require('../../dataExternal/unosquareForm.json')
       }
-    }
+
+  }]
   };
